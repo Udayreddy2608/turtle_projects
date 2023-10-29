@@ -1,15 +1,15 @@
 from turtle import Turtle, Screen
 import random
 colours=["red","blue","bisque3","chartreuse","cyan3","DarkGreen","DarkGray","DarkRed"]
-niki = Turtle()
-niki.shape("classic")
+uday = Turtle()
+uday.shape("classic")
 def shape(sides):
     angle=360/sides
     for i in range(sides):
-        niki.forward(100)
-        niki.right(angle)
+        uday.forward(100)
+        uday.right(angle)
 for number in range(3,11):
-    niki.color(colours[number - 3])
+    uday.color(colours[number - 3])
     shape(number)
 
 
