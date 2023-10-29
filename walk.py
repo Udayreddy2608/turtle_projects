@@ -1,7 +1,7 @@
 from turtle import Turtle, Screen
 import turtle
 import random
-niki=Turtle()
+joey=Turtle()
 directions=[0,90,180,270]
 turtle.colormode(255)
 def random_color():
@@ -10,12 +10,12 @@ def random_color():
     b=random.randint(0,255)
     colour=(r,g,b)
     return colour
-niki.pensize(10)
-niki.speed(10)
+joey.pensize(10)
+joey.speed(10)
 for i in range(200):
-    niki.forward(30)
-    niki.color(random_color())
-    niki.setheading(random.choice(directions))
+    joey.forward(30)
+    joey.color(random_color())
+    joey.setheading(random.choice(directions))
 
 
 
